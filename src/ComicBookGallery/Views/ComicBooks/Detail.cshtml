@@ -1,7 +1,7 @@
 ﻿@model  ComicBookGallery.Models.ComicBook
 
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    
     ViewBag.Title = Model.displayText;
 
 }
@@ -16,7 +16,7 @@
 <body>
     <div>
         <h1>@Model.SeriesTitle</h1>
-        <h2>Issue: @Model.IssueNumber</h2>
+        <h2>Issue: #@Model.IssueNumber</h2>
 
         <h5>Description:</h5>
         <div>
